@@ -58,7 +58,7 @@ const Resume = () => {
         <h1>Kateryna Stetsenko</h1>
         <button style={styles.downloadButton}>
           <a
-            href="./Kateryna-Stetsenko-resume.pdf"
+            href="./Kateryna_Stetsenko_resume.pdf"
             download
             style={styles.link}
           >
@@ -66,7 +66,9 @@ const Resume = () => {
           </a>
         </button>
       </div>
-      <p className="lead">Full-Stack Developer</p>
+      <p className="lead" style={{ fontWeight: "bold" }}>
+        Full-Stack Developer
+      </p>
 
       <div style={styles.section}>
         <address>
@@ -79,7 +81,7 @@ const Resume = () => {
             </a>
           </p>
           <p>
-            Github:{" "}
+            Github:
             <a
               href="https://github.com/itcreativeusa"
               style={styles.link}
@@ -87,6 +89,17 @@ const Resume = () => {
               rel="noopener noreferrer"
             >
               https://github.com/itcreativeusa
+            </a>
+          </p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/itcreativeusa/"
+              style={styles.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.linkedin.com/in/itcreativeusa/
             </a>
           </p>
         </address>
@@ -132,51 +145,63 @@ const Resume = () => {
       <div style={styles.section}>
         <h2 style={styles.heading}>Education:</h2>
         <p style={styles.content}>
-          Berkeley Bootcamp Full Stack Program, Berkeley, CA (March 2023 -
-          August 2023) Completed intensive full-stack development program at
-          Berkeley Bootcamp, gaining expertise in modern web development
-          technologies and frameworks. Proficient in front-end tools such as
-          HTML, CSS, Bootstrap, JavaScript/ES6, jQuery, AJAX, and DOM
-          manipulation, as well as back-end technologies like Node.js,
-          Express.js, MySQL, Sequelize ORM, and NoSQL databases. Experienced in
-          building end-to-end web applications using the MERN stack (MongoDB,
-          Express.js, React, Node.js) and following the MVC paradigm. Skilled in
-          agile development methodologies, collaborating effectively with
-          cross-functional teams to ensure project success. Strong
-          problem-solving abilities demonstrated through unit testing and
-          test-driven development practices. Committed to continuous learning,
-          keeping up with the latest trends and tools in web development.
+          <b>
+            Certificate: UC Berkeley Extention Bootcamp. Full Stack Developer,
+            Berkeley, CA (March 2023 - August 2023)
+          </b>{" "}
+          Completed intensive full-stack development program at Berkeley
+          Bootcamp, gaining expertise in modern web development technologies and
+          frameworks. Proficient in front-end tools such as HTML, CSS,
+          Bootstrap, JavaScript/ES6, jQuery, AJAX, and DOM manipulation, as well
+          as back-end technologies like Node.js, Express.js, MySQL, Sequelize
+          ORM, and NoSQL databases. Experienced in building end-to-end web
+          applications using the MERN stack (MongoDB, Express.js, React,
+          Node.js) and following the MVC paradigm. Skilled in agile development
+          methodologies, collaborating effectively with cross-functional teams
+          to ensure project success. Strong problem-solving abilities
+          demonstrated through unit testing and test-driven development
+          practices. Committed to continuous learning, keeping up with the
+          latest trends and tools in web development.
         </p>
         <p style={styles.content}>
-          Webmaster Courses, Educational center "Success," Ukraine (March 2014 -
-          July 2014) Completed webmaster courses, learning web design and
-          development from scratch.
+          <b>
+            Certificate: Webmaster Courses. Educational center "Success,"
+            Ukraine.
+          </b>{" "}
+          Completed webmaster courses, learning web design and development from
+          scratch.
         </p>
         <p style={styles.content}>
-          Master in Finance, National Academy of Statistics, Accounting, and
-          Auditing, Ukraine (2003-2009) Obtained a Master's degree in Finance,
-          providing a strong foundation in financial principles and analysis.
+          <b>
+            Master in Finance. National Academy of Statistics, Accounting, and
+            Auditing, Ukraine.{" "}
+          </b>
         </p>
       </div>
 
       <div style={styles.section}>
         <h2 style={styles.heading}>Work Experience:</h2>
         <p style={styles.content}>
-          Founder and Project Manager, Itcreative Web Studio, Ukraine
-          (2014-2019) Starting from freelance web development, grown into a web
-          studio managing multiple projects in parallel, distributing work to
-          multiple freelance developers, and collaborating with multiple clients
-          to provide innovative web solutions and deliver high-quality projects
-          on time.
+          <b>
+            ounder and Project Manager, Itcreative Web Studio, Ukraine
+            (2014-2019){" "}
+          </b>{" "}
+          FStarting from freelance web development, grown into a web studio
+          managing multiple projects in parallel, distributing work to multiple
+          freelance developers, and collaborating with multiple clients to
+          provide innovative web solutions and deliver high-quality projects on
+          time.
         </p>
         <p style={styles.content}>
-          Founder, Finder IoT Startup, Ukraine (2016-2017) Established and led
-          an IoT startup, handling product development and business strategy,
-          resulting in participation and recognition in startup competitions.
+          <b>Founder, Finder IoT Startup, Ukraine (2016-2017)</b> Established
+          and led an IoT startup, handling product development and business
+          strategy, resulting in participation and recognition in startup
+          competitions.
         </p>
         <p style={styles.content}>
-          Sales Manager, Company Prodex, Ukraine (2007-2014) Managed wholesales,
-          developed sales strategies, and fostered strong client relationships.
+          <b>Sales Manager, Company Prodex, Ukraine (2007-2014)</b> Managed
+          wholesales, developed sales strategies, and fostered strong client
+          relationships.
         </p>
       </div>
 

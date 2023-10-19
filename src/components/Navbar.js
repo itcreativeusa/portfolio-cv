@@ -14,10 +14,9 @@ const styles = {
     background: `url("./menu-bg.jpg")`,
     backgroundSize: "contain",
     backgroundRepeat: "repeat",
-    minHeight: "300px",
     lineHeight: "1.5",
-    height: "300px",
-    fontSize: "2rem",
+    height: "100px",
+    fontSize: "1.5rem",
     fontWeight: "600",
   },
 };

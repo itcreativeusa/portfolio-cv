@@ -5,14 +5,14 @@ import Project from "./Project";
 const styles = {
   card: {
     margin: 20,
-    background: "#e8eaf6",
+    background: "#ECECEC",
   },
   heading: {
-    background: "#cc4499",
+    background: "#DEE2FF",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "2rem",
-    color: "white",
+    color: "#333",
     padding: "0 20px",
     textAlign: "center",
   },

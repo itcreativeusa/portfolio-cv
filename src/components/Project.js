@@ -100,16 +100,16 @@ const styles = {
     fontWeight: "600",
   },
   heading: {
-    background: "#cc4499",
+    background: "#CBC0D3",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "2rem",
-    color: "white",
+    color: "#333",
     padding: "0 20px",
     textAlign: "center",
   },
   content: {
-    color: "white",
+    color: "#333",
     fontWeight: "400",
     fontSize: "1.25rem",
     position: "relative",
@@ -123,7 +123,7 @@ const styles = {
     fontSize: "1.25rem",
     fontWeight: "600",
     color: "#333",
-    backgroundColor: "#98fb98",
+    backgroundColor: "#EFD3D7",
     padding: "10px 20px",
     border: "none",
     borderRadius: "5px",
@@ -132,7 +132,8 @@ const styles = {
     transition: "background-color 0.3s",
   },
   seeAllButtonHover: {
-    backgroundColor: "#70db70",
+    backgroundColor: "#8E9AAF",
+    color: "white",
   },
   technologies: {
     color: "black",
