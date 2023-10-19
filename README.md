@@ -1,12 +1,12 @@
-# portfolio-fiesta
+# portfolio-cv
 
 ## Description
 
 Deployed application link on GitHub
-https://github.com/itcreativeusa/portfolio-fiesta
+https://github.com/itcreativeusa/portfolio-cv
 
 Deployed application link on GitHub Pages
-https://itcreativeusa.github.io/portfolio-fiesta/
+https://itcreativeusa.github.io/portfolio-cv/
 
 A single-page application web developer portfolio. Application use React to render content. This portfolio helps not only to share projects for applying for jobs or working as a freelancer but also to share work with other developers and collaborate on projects.
 Appllication contain: About Me, All Projects, Contact, and Resume sections.
