@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-fiesta/static/css/main.73640381.css",
+    "main.js": "/portfolio-fiesta/static/js/main.9d859304.js",
+    "index.html": "/portfolio-fiesta/index.html",
+    "main.73640381.css.map": "/portfolio-fiesta/static/css/main.73640381.css.map",
+    "main.9d859304.js.map": "/portfolio-fiesta/static/js/main.9d859304.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73640381.css",
+    "static/js/main.9d859304.js"
+  ]
+}
