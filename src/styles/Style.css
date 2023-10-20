@@ -2,13 +2,7 @@
 
 /* header */
 .header {
-  background-color: #663dff;
-  background-image: linear-gradient(
-    319deg,
-    #dee2ff 0%,
-    #cbc0d3 37%,
-    #feeafa 100%
-  );
+  background-color: rgb(51, 51, 51);
   height: 100px;
   background-size: cover;
 }
@@ -17,7 +11,7 @@
   margin: 0;
   padding-top: 75px;
   text-align: center;
-  color: #333;
+  color: white;
   font-size: 3rem;
 }
 
