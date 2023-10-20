@@ -12,7 +12,6 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     background: `url("./menu-bg.jpg")`,
-    backgroundSize: "contain",
     lineHeight: "1.5",
     height: "250px",
     fontSize: "1.5rem",
