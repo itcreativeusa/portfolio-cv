@@ -91,7 +91,7 @@ const cardData = [
 const styles = {
   card: {
     margin: 20,
-    background: "#e8eaf6",
+    background: "white",
   },
   title: {
     minHeight: 50,
@@ -100,11 +100,11 @@ const styles = {
     fontWeight: "600",
   },
   heading: {
-    background: "#CBC0D3",
+    background: "#ff3b83",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "2rem",
-    color: "#333",
+    color: "white",
     padding: "0 20px",
     textAlign: "center",
   },
@@ -122,8 +122,8 @@ const styles = {
   seeAllButton: {
     fontSize: "1.25rem",
     fontWeight: "600",
-    color: "#333",
-    backgroundColor: "#EFD3D7",
+    color: "white",
+    backgroundColor: "##ff3b83",
     padding: "10px 20px",
     border: "none",
     borderRadius: "5px",
@@ -132,7 +132,7 @@ const styles = {
     transition: "background-color 0.3s",
   },
   seeAllButtonHover: {
-    backgroundColor: "#8E9AAF",
+    backgroundColor: "black",
     color: "white",
   },
   technologies: {
@@ -149,7 +149,7 @@ function Project() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>&#127799; Some of my projects &#127799;</div>
+      <div style={styles.heading}>Some of my projects</div>
       <div className="row" style={{ margin: 20 }}>
         {cardData.map((card, index) => (
           <div key={index} className="col-md-12 col-lg-6 col-sm-12">

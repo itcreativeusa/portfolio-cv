@@ -8,11 +8,11 @@ const styles = {
     background: "#ECECEC",
   },
   heading: {
-    background: "#DEE2FF",
+    background: "#ff3b83",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "2rem",
-    color: "#333",
+    color: "white",
     padding: "0 20px",
     textAlign: "center",
   },
@@ -37,7 +37,7 @@ const styles = {
 function AboutMe() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>&#127799; About me &#127799;</div>
+      <div style={styles.heading}>About me</div>
       <div style={styles.content}>
         <p>
           <img

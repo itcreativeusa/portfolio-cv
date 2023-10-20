@@ -59,16 +59,15 @@
 }
 
 .card-body:hover {
-  box-shadow: inset 0px 0px 20px #333, 0 0 40px #333;
   transition: 0.5s;
   transition-duration: 0.5s;
-  background-color: #cbc0d3;
+  background-color: #ff3b83;
   background-image: none;
 }
 
 #linkedin:hover,
 #github:hover {
-  color: #cc4499;
+  color: #ff3b83;
 }
 
 /* Media Queries */
