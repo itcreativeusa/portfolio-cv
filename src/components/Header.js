@@ -10,6 +10,7 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+    textTransform: "uppercase",
     fontSize: "1.5rem",
     fontWeight: "600",
     backgroundColor: "rgb(51, 51, 51)",
