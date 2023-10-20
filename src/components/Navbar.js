@@ -9,8 +9,6 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    fontSize: "3rem",
-    fontWeight: "600",
     background: `url("./menu-bg.jpg")`,
     backgroundSize: "100% 100%",
     backgroundRepeat: "no-repeat",
