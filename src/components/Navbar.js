@@ -13,7 +13,6 @@ const styles = {
     alignItems: "center",
     background: `url("./menu-bg.jpg")`,
     backgroundSize: "contain",
-    backgroundRepeat: "repeat",
     lineHeight: "1.5",
     height: "250px",
     fontSize: "1.5rem",
