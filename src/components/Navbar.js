@@ -14,7 +14,7 @@ const styles = {
     background: `url("./menu-bg.jpg")`,
     backgroundSize: "100% 100%",
     backgroundRepeat: "no-repeat",
-    height: "250px",
+    height: "500px",
     fontSize: "1.5rem",
     fontWeight: "600",
   },
