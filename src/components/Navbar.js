@@ -15,7 +15,7 @@ const styles = {
     backgroundSize: "contain",
     backgroundRepeat: "repeat",
     lineHeight: "1.5",
-    height: "100px",
+    height: "250px",
     fontSize: "1.5rem",
     fontWeight: "600",
   },

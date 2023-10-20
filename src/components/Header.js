@@ -9,7 +9,7 @@ function Header() {
   // Returning the header component with the title
   return (
     <header className="header">
-      <h1>Kateryna's Stetsenko Portfolio &#128640;</h1>
+      <h1>Kateryna's Stetsenko Portfolio</h1>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1"

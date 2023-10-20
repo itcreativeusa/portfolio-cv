@@ -123,7 +123,7 @@ const styles = {
     fontSize: "1.25rem",
     fontWeight: "600",
     color: "white",
-    backgroundColor: "#ff3b83",
+    backgroundColor: "black",
     padding: "10px 20px",
     border: "none",
     borderRadius: "5px",
@@ -132,7 +132,7 @@ const styles = {
     transition: "background-color 0.3s",
   },
   seeAllButtonHover: {
-    backgroundColor: "black",
+    backgroundColor: "#ff3b83",
     color: "white",
   },
   technologies: {
