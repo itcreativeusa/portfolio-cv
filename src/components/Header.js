@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 const styles = {
-  heading: {
+  navbar: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -19,7 +19,7 @@ const styles = {
 
 function CustomNavbar() {
   return (
-    <div style={styles.heading}>
+    <div style={styles.navbar}>
       <Navbar expand="md" variant="light">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
