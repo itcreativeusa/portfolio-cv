@@ -1,23 +1,46 @@
 import React from "react";
-
-// Here we import bootstrap for access to some additional styling
 import "bootstrap/dist/css/bootstrap.min.css";
-// Here import a CSS file as a dependency
 import "../styles/Style.css";
+import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
-function Header() {
-  // Returning the header component with the title
+const styles = {
+  heading: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: "1.5rem",
+    fontWeight: "600",
+    backgroundColor: "rgb(51, 51, 51)",
+    backgroundSize: "cover",
+  },
+};
+
+function CustomNavbar() {
   return (
-    <header className="header">
-      <h1>
-        <a href="/">Kateryna's Stetsenko Portfolio</a>
-      </h1>
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-      ></meta>
-    </header>
+    <div style={styles.heading}>
+      <Navbar expand="md" variant="light">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link as={Link} to="/">
+              About Me
+            </Nav.Link>
+            <Nav.Link as={Link} to="/project-all">
+              All projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact Me
+            </Nav.Link>
+            <Nav.Link as={Link} to="/resume">
+              My resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
 }
 
-export default Header;
+export default CustomNavbar;
