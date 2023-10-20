@@ -123,7 +123,7 @@ const styles = {
     fontSize: "1.25rem",
     fontWeight: "600",
     color: "white",
-    backgroundColor: "black",
+    backgroundColor: "#ff3b83",
     padding: "10px 20px",
     border: "none",
     borderRadius: "5px",
@@ -147,21 +147,39 @@ const styles = {
 //Card component that will be used to display the project cards
 function Project() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
+
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Some of my projects</div>
       <div className="row" style={{ margin: 20 }}>
         {cardData.map((card, index) => (
-          <div key={index} className="col-md-12 col-lg-6 col-sm-12">
+          <div
+            key={index}
+            className="col-md-12 col-lg-6 col-sm-12"
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={handleMouseLeave}
+          >
             <div
               className="card mb-4"
               style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/${card.backgroundImage})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                background:
+                  hoveredIndex === index
+                    ? "#ff3b83"
+                    : `url(${process.env.PUBLIC_URL}/${card.backgroundImage}) center/cover`,
+                height: 450,
+                padding: 50,
+                position: "relative",
               }}
             >
-              <div className="card-body" style={{ height: 450, padding: 50 }}>
+              <div>
                 <h5 className="card-title" style={styles.title}>
                   {card.title}
                 </h5>
@@ -193,8 +211,8 @@ function Project() {
               ...styles.seeAllButton,
               ...(hoveredIndex === "seeAllButton" && styles.seeAllButtonHover),
             }}
-            onMouseEnter={() => setHoveredIndex("seeAllButton")}
-            onMouseLeave={() => setHoveredIndex(null)}
+            onMouseEnter={() => handleMouseEnter("seeAllButton")}
+            onMouseLeave={handleMouseLeave}
           >
             See All Projects
           </button>
@@ -203,4 +221,5 @@ function Project() {
     </div>
   );
 }
+
 export default Project;
