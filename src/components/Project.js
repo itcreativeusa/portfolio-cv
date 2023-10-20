@@ -123,7 +123,7 @@ const styles = {
     fontSize: "1.25rem",
     fontWeight: "600",
     color: "white",
-    backgroundColor: "black",
+    backgroundColor: "#333",
     padding: "10px 20px",
     border: "none",
     borderRadius: "5px",
@@ -136,7 +136,7 @@ const styles = {
     color: "white",
   },
   technologies: {
-    color: "black",
+    color: "#333",
     fontWeight: "600",
     fontSize: "1.25rem",
     position: "relative",

@@ -13,7 +13,7 @@ const styles = {
     textTransform: "uppercase",
     fontSize: "1.5rem",
     fontWeight: "600",
-    backgroundColor: "rgb(51, 51, 51)",
+    backgroundColor: "#333",
     backgroundSize: "cover",
   },
 };
