@@ -12,13 +12,13 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     background: `url("./menu-bg.jpg")`,
-    lineHeight: "1.5",
+    backgroundSize: "100% 100%",
+    backgroundRepeat: "no-repeat",
     height: "250px",
     fontSize: "1.5rem",
     fontWeight: "600",
   },
 };
-
 function CustomNavbar() {
   return (
     <div style={styles.heading}>
