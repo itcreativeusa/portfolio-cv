@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 //Card component with project information
@@ -248,36 +247,55 @@ const styles = {
     overflow: "hidden",
     boxSizing: "borderBox",
   },
+  cardHover: {
+    background: "#cc4499", // Change to the hover color you prefer
+    transition: "background 0.3s",
+  },
 };
 
 // In `Card`, we can assign a style from an object by using curly braces
 // Assigning the card, heading, and content all from our `style` object
 function ProjectsAll() {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
+
   return (
     <div style={styles.card}>
       <div className="row" style={{ margin: 20 }}>
         {cardData.map((card, index) => (
-          <div key={index} className="col-md-12 col-lg-6 col-sm-12">
+          <div
+            key={index}
+            className="col-md-12 col-lg-6 col-sm-12"
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={handleMouseLeave}
+          >
             <div
               className="card mb-4"
               style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/${card.backgroundImage})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                background:
+                  hoveredIndex === index
+                    ? "#ff3b83"
+                    : `url(${process.env.PUBLIC_URL}/${card.backgroundImage}) center/cover`,
+                height: 450,
+                padding: 50,
+                position: "relative",
               }}
             >
-              <div className="card-body" style={{ height: 450, padding: 50 }}>
+              <div>
                 <h5 className="card-title" style={styles.title}>
                   {card.title}
                 </h5>
                 <p className="card-text" style={styles.content}>
                   {card.content}
                 </p>
-                <p
-                  style={styles.technologies}
-                  className="card-technologies"
-                  id="test"
-                >
+                <p style={styles.technologies}>
                   Technologies used: {card.technologies.join(", ")}
                 </p>
                 <a
