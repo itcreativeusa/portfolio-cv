@@ -4,11 +4,46 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 //Card component with project information
 const cardData = [
   {
+    title: "redux-a-shop",
+    content:
+      "Redux-a-shop is an e-commerce platform that allows users to browse through a variety of items, add them to their cart, and purchase them using Stripe. Applicaton is using Redux to manage global state instead of the Context API.",
+    technologies: [
+      "MERN Stack",
+      "Redux",
+      "GraphQL API",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "ES6",
+      "APIs",
+    ],
+    backgroundImage: "./img-1.jpg",
+    githubLink: "https://github.com/itcreativeusa/redux-a-shop",
+  },
+  {
+    title: "book-ninja",
+    content:
+      "Book Ninja web application is a Google Books API search engine built with GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's allow users to save book searches to the back end.",
+    technologies: [
+      "MERN Stack",
+      "GraphQL API",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "ES6",
+      "APIs",
+    ],
+    backgroundImage: "./img-2.jpg",
+    githubLink: "https://github.com/itcreativeusa/book-ninja",
+  },
+  {
     title: "work-wiz",
     content:
       "This is a WorkWiz employee tracker, a command-line application that can be used to add, view & delete employees, roles and departments. Application uses Node.js, Inquirer, and MySQL to manage a company's employee database.",
     technologies: ["Node.js", "MySQL", "Big Data", "Inquirer", "ES6", "CLI"],
-    backgroundImage: "./img-1.jpg",
+    backgroundImage: "./img-3.jpg",
     githubLink: "https://github.com/itcreativeusa/work-wiz",
   },
 
@@ -26,7 +61,7 @@ const cardData = [
       "Relationships with Sequelize",
     ],
 
-    backgroundImage: "./img-2.jpg",
+    backgroundImage: "./img-4.jpg",
     githubLink: "https://github.com/itcreativeusa/shop-nerd",
   },
   {
@@ -34,7 +69,7 @@ const cardData = [
     content:
       "This you-better-readme was created as a boot camp every week student challenge. It's a command-line node.js application that accepts user input for generating a readme file with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.",
     technologies: ["Node.js", "ES6", "Inquirer", "CLI", "Markdown", "Git"],
-    backgroundImage: "./img-3.jpg",
+    backgroundImage: "./img-5.jpg",
     githubLink: "https://github.com/itcreativeusa/you-better-readme",
   },
   {
@@ -47,7 +82,7 @@ const cardData = [
       "Modular Routing",
       "Custom Middleware and Deployment",
     ],
-    backgroundImage: "./img-4.jpg",
+    backgroundImage: "./img-6.jpg",
     githubLink: "https://github.com/itcreativeusa/green-scribbles",
   },
   {
@@ -67,7 +102,7 @@ const cardData = [
       "Mongoose",
       "APIs",
     ],
-    backgroundImage: "./img-5.jpg",
+    backgroundImage: "./img-7.jpg",
     githubLink: "https://github.com/itcreativeusa/text-me-jate",
   },
   {
@@ -83,7 +118,7 @@ const cardData = [
       "ES6",
       "APIs",
     ],
-    backgroundImage: "./img-6.jpg",
+    backgroundImage: "./img-8.jpg",
     githubLink: "https://github.com/itcreativeusa/link-minds",
   },
   {
@@ -100,7 +135,7 @@ const cardData = [
       "jQuery UI and Day.js",
       "GitHub Pages",
     ],
-    backgroundImage: "./img-7.jpg",
+    backgroundImage: "./img-9.jpg",
     githubLink: "https://itcreativeusa.github.io/smart-day-creator",
   },
   {
@@ -118,7 +153,7 @@ const cardData = [
       "SVG",
     ],
 
-    backgroundImage: "./img-8.jpg",
+    backgroundImage: "./img-10.jpg",
     githubLink: "https://github.com/itcreativeusa/gogo-logo-mogo",
   },
   {
@@ -135,7 +170,7 @@ const cardData = [
       "GitHub Pages",
     ],
 
-    backgroundImage: "./img-9.jpg",
+    backgroundImage: "./img-11.jpg",
     githubLink: "https://itcreativeusa.github.io/my-pretty-portfolio",
   },
   {
@@ -152,7 +187,7 @@ const cardData = [
       "GitHub Pages",
     ],
 
-    backgroundImage: "./img-10.jpg",
+    backgroundImage: "./img-12.jpg",
     githubLink: "https://itcreativeusa.github.io/amazing-history-quiz",
   },
   {
@@ -161,7 +196,7 @@ const cardData = [
       "This Horiseon-Landing-Page website was created as a boot camp every week student challenge. This website is an HTML & CSS landing page.",
     technologies: ["HTML", "CSS", "CSS layout", "Box Model", "GitHub Pages"],
 
-    backgroundImage: "./img-11.jpg",
+    backgroundImage: "./img-13.jpg",
     githubLink: "https://itcreativeusa.github.io/horiseon-landing-page",
   },
   {
@@ -177,7 +212,7 @@ const cardData = [
       "GitHub Pages",
     ],
 
-    backgroundImage: "./img-12.jpg",
+    backgroundImage: "./img-14.jpg",
     githubLink: "https://itcreativeusa.github.io/generate-pass-easy",
   },
   {
@@ -186,7 +221,7 @@ const cardData = [
       "This CSS-Snippet-Cheatsheet website was created as a boot camp every week for student challenges. This website is an HTML & CSS portfolio page. The code of this portfolio page was created from scratch. The page contains blocks of code the user may automatically select.",
     technologies: ["Node.js", "Inquirer", "MySQL"],
 
-    backgroundImage: "./img-13.jpg",
+    backgroundImage: "./img-15.jpg",
     githubLink: "https://itcreativeusa.github.io/css-snippet-cheatsheet",
   },
   {
@@ -203,7 +238,7 @@ const cardData = [
       "Grouping and Capturing",
       "Character Escapes",
     ],
-    backgroundImage: "./img-14.jpg",
+    backgroundImage: "./img-16.jpg",
     githubLink:
       "https://gist.github.com/itcreativeusa/6d24f96ad71f60c6c7b46aea62f94b5e",
   },

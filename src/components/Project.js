@@ -5,11 +5,46 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 //Card component with project information
 const cardData = [
   {
+    title: "redux-a-shop",
+    content:
+      "Redux-a-shop is an e-commerce platform that allows users to browse through a variety of items, add them to their cart, and purchase them using Stripe. Applicaton is using Redux to manage global state instead of the Context API.",
+    technologies: [
+      "MERN Stack",
+      "Redux",
+      "GraphQL API",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "ES6",
+      "APIs",
+    ],
+    backgroundImage: "./img-1.jpg",
+    githubLink: "https://github.com/itcreativeusa/redux-a-shop",
+  },
+  {
+    title: "book-ninja",
+    content:
+      "Book Ninja web application is a Google Books API search engine built with GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's allow users to save book searches to the back end.",
+    technologies: [
+      "MERN Stack",
+      "GraphQL API",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "ES6",
+      "APIs",
+    ],
+    backgroundImage: "./img-2.jpg",
+    githubLink: "https://github.com/itcreativeusa/book-ninja",
+  },
+  {
     title: "work-wiz",
     content:
       "This is a WorkWiz employee tracker, a command-line application that can be used to add, view & delete employees, roles and departments. Application uses Node.js, Inquirer, and MySQL to manage a company's employee database.",
     technologies: ["Node.js", "MySQL", "Big Data", "Inquirer", "ES6", "CLI"],
-    backgroundImage: "./img-1.jpg",
+    backgroundImage: "./img-3.jpg",
     githubLink: "https://github.com/itcreativeusa/work-wiz",
   },
 
@@ -26,7 +61,7 @@ const cardData = [
       "Authentication",
       "Relationships with Sequelize",
     ],
-    backgroundImage: "./img-2.jpg",
+    backgroundImage: "./img-4.jpg",
     githubLink: "https://github.com/itcreativeusa/shop-nerd",
   },
   {
@@ -34,7 +69,7 @@ const cardData = [
     content:
       "This you-better-readme was created as a boot camp every week student challenge. It's a command-line node.js application that accepts user input for generating a readme file with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.",
     technologies: ["Node.js", "ES6", "Inquirer", "CLI", "Markdown", "Git"],
-    backgroundImage: "./img-3.jpg",
+    backgroundImage: "./img-5.jpg",
     githubLink: "https://github.com/itcreativeusa/you-better-readme",
   },
   {
@@ -47,44 +82,8 @@ const cardData = [
       "Modular Routing",
       "Custom Middleware and Deployment",
     ],
-    backgroundImage: "./img-4.jpg",
-    githubLink: "https://github.com/itcreativeusa/green-scribbles",
-  },
-  {
-    title: "text-me-jate",
-    content:
-      "Text-me Progressive Web Application is a text editor that runs in the browser and creates notes or code snippets with or without an internet connection. Application have an option to install as a Progressive Web Application.",
-    technologies: [
-      "Progressive Web Applications (PWA)",
-      "Webpage Performance and Webpack",
-      "Workbox and IndexedDB",
-      "Service Workers",
-      "Manifest",
-      "ES6",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "APIs",
-    ],
-    backgroundImage: "./img-5.jpg",
-    githubLink: "https://github.com/itcreativeusa/text-me-jate",
-  },
-  {
-    title: "link-minds",
-    content:
-      "This is a link-minds an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. App use Express.js for routing, a MongoDB database, and the Mongoose ODM.",
-    technologies: [
-      "NoSQL",
-      "MongoDB",
-      "Mongoose",
-      "Express.js",
-      "Node.js",
-      "ES6",
-      "APIs",
-    ],
     backgroundImage: "./img-6.jpg",
-    githubLink: "https://github.com/itcreativeusa/link-minds",
+    githubLink: "https://github.com/itcreativeusa/green-scribbles",
   },
 ];
 //styles for the card component and the button
