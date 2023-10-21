@@ -61,18 +61,20 @@ const Resume = () => {
     <Container style={styles.container}>
       <div style={styles.nameSection}>
         <h1>Kateryna Stetsenko</h1>
-        <button style={styles.downloadButton}>
-          <a
-            href="./Kateryna_Stetsenko_resume.pdf"
-            download
-            style={styles.link}
-          >
-            Download Resume
-          </a>
-        </button>
-        <button style={styles.downloadButton} onClick={handlePrint}>
-          Print this page
-        </button>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <button style={{ ...styles.downloadButton, marginRight: "10px" }}>
+            <a
+              href="./Kateryna_Stetsenko_resume.pdf"
+              download
+              style={styles.link}
+            >
+              Download Resume
+            </a>
+          </button>
+          <button style={styles.downloadButton} onClick={handlePrint}>
+            Print this page
+          </button>
+        </div>
       </div>
       <p className="lead" style={{ fontWeight: "bold" }}>
         Full-Stack Developer
