@@ -35,6 +35,7 @@ const styles = {
   },
   downloadButton: {
     padding: "10px 20px",
+    backgroundColor: "white",
     borderRadius: "5px",
     fontSize: "1rem",
     cursor: "pointer",
