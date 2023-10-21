@@ -17,12 +17,9 @@ const styles = {
   link: {
     textDecoration: "none",
     color: "white",
-    fontSize: "2rem",
+    fontSize: "3rem",
     textTransform: "uppercase",
     transition: "color 0.3s", // Smooth transition on color change
-  },
-  linkHover: {
-    color: "#ff3b83",
   },
 };
 
