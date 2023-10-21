@@ -1,5 +1,5 @@
 import React from "react";
-//bootstrap css
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Style.css";
 
@@ -14,6 +14,14 @@ const styles = {
     backgroundRepeat: "no-repeat",
     height: "500px",
   },
+  link: {
+    textDecoration: "none",
+    color: "white",
+    transition: "color 0.3s", // Smooth transition on color change
+  },
+  linkHover: {
+    color: "#ff3b83",
+  },
 };
 
 function Header() {
@@ -21,7 +29,9 @@ function Header() {
     <div style={styles.heading}>
       <header className="header">
         <h1>
-          <a href="/">Kateryna's Stetsenko Portfolio</a>
+          <Link to="/" style={styles.link} activeStyle={styles.linkHover}>
+            Kateryna's Stetsenko Portfolio
+          </Link>
         </h1>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </header>

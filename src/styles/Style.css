@@ -8,15 +8,6 @@
   font-size: 3rem;
   font-weight: 600;
 }
-.header h1 a {
-  text-decoration: none;
-  color: white;
-}
-.header h1 a:hover {
-  color: #ff3b83;
-}
-
-/* Body styles */
 
 /* Navbar styles */
 .navbar-nav {
