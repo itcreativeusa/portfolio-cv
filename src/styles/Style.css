@@ -5,8 +5,6 @@
   margin: 0;
   padding-top: 75px;
   text-align: center;
-  font-size: 3rem;
-  font-weight: 600;
 }
 
 /* Navbar styles */
@@ -30,6 +28,9 @@
 #githubLink {
   background-color: #333;
   border: white 1px solid;
+}
+footer p {
+  text-transform: uppercase;
 }
 
 #githubLink:hover {
