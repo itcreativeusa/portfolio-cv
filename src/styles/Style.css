@@ -1,6 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap");
 
 /* header */
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../public/menu-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  transition: color 0.3s; /* Smooth transition on color change */
+}
 .header h1 {
   margin: 0;
   padding-top: 75px;
@@ -73,19 +91,19 @@ footer p {
     padding: 10px 0;
   }
 }
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 15%;
+}
 
 /* Styles for smaller screens (mobile) */
 @media (max-width: 767px) {
   /* Header styles */
-  .header {
-    height: 150px;
-  }
-  .header h1 {
-    padding-top: 50px;
-    font-size: 2rem;
+  .heading {
+    height: 300px; /* Adjust the height for smaller screens */
   }
 
-  .nav-item {
-    padding: 10px 0;
+  .link {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
   }
 }

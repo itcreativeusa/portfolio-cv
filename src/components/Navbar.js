@@ -3,32 +3,16 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Style.css";
 
-const styles = {
-  heading: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    background: `url("./menu-bg.jpg")`,
-    backgroundSize: "100% 100%",
-    backgroundRepeat: "no-repeat",
-    height: "500px",
-  },
-  link: {
-    textDecoration: "none",
-    color: "white",
-    fontSize: "3rem",
-    textTransform: "uppercase",
-    transition: "color 0.3s", // Smooth transition on color change
-  },
-};
-
 function Header() {
   return (
-    <div style={styles.heading}>
+    <div className="heading">
       <header className="header">
         <h1>
-          <Link to="/" style={styles.link} activeStyle={styles.linkHover}>
+          <Link
+            to="/"
+            className="link"
+            activeStyle={{ color: "yourActiveColor" }}
+          >
             Kateryna's Stetsenko Portfolio
           </Link>
         </h1>
