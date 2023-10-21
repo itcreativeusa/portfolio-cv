@@ -219,7 +219,7 @@ const styles = {
   title: {
     minHeight: 50,
     fontSize: "1.5rem",
-    color: "black",
+    color: "#333",
     fontWeight: "600",
   },
   heading: {
@@ -240,7 +240,7 @@ const styles = {
     color: "white",
   },
   technologies: {
-    color: "black",
+    color: "#333",
     fontWeight: "600",
     fontSize: "1.25rem",
     position: "relative",

@@ -96,7 +96,7 @@ const styles = {
   title: {
     minHeight: 50,
     fontSize: "1.5rem",
-    color: "white",
+    color: "#333",
     fontWeight: "600",
   },
   heading: {
@@ -110,7 +110,7 @@ const styles = {
     textAlign: "center",
   },
   content: {
-    color: "#333",
+    color: "white",
     fontWeight: "400",
     fontSize: "1.25rem",
     position: "relative",
