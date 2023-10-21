@@ -82,7 +82,7 @@ const Resume = () => {
           <div style={{ display: "flex", alignItems: "center" }}>
             <button style={{ ...styles.downloadButton, marginRight: "10px" }}>
               <a
-                href="./Kateryna_Stetsenko_resume.pdf"
+                href="/Kateryna-Stetsenko-resume.pdf"
                 download
                 style={styles.link}
               >
