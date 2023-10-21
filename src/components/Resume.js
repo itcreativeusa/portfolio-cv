@@ -175,7 +175,7 @@ const Resume = () => {
           <p style={styles.content}>
             <b>
               Certificate: UC Berkeley Extention Bootcamp. Full Stack Developer,
-              Berkeley, CA (March 2023 - August 2023)
+              Berkeley, CA
             </b>{" "}
             Completed intensive full-stack development program at Berkeley
             Bootcamp, gaining expertise in modern web development technologies
