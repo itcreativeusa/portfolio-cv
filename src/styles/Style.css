@@ -6,7 +6,9 @@
   padding-top: 75px;
   text-align: center;
 }
-
+a {
+  color: #ff3b83;
+}
 /* Navbar styles */
 .navbar-nav {
   margin: 0 auto;

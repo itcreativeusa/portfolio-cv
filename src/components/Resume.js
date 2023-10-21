@@ -26,7 +26,7 @@ const styles = {
     marginLeft: "1.5rem",
   },
   link: {
-    color: "#007bff",
+    color: "##ff3b83",
     textDecoration: "none",
   },
   content: {
@@ -40,7 +40,8 @@ const styles = {
     cursor: "pointer",
     textDecoration: "none",
     marginTop: "20px",
-    border: "1px solid #007bff",
+    color: "#ff3b83",
+    border: "1px solid #ff3b83",
   },
   nameSection: {
     display: "flex",
@@ -51,6 +52,10 @@ const styles = {
 };
 //Resume component that will be used to display the resume page
 const Resume = () => {
+  const handlePrint = () => {
+    window.print();
+  };
+
   //Returning the resume page
   return (
     <Container style={styles.container}>
@@ -64,6 +69,9 @@ const Resume = () => {
           >
             Download Resume
           </a>
+        </button>
+        <button style={styles.downloadButton} onClick={handlePrint}>
+          Print this page
         </button>
       </div>
       <p className="lead" style={{ fontWeight: "bold" }}>
