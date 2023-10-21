@@ -42,12 +42,6 @@
 .card-body {
   position: relative;
 }
-/*
-.card-body:hover {
-  transition: 0.5s;
-  transition-duration: 0.5s;
-  background-color: #ff3b83;
-}*/
 
 #linkedin:hover,
 #github:hover {

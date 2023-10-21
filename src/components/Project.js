@@ -103,7 +103,8 @@ const styles = {
     background: "#ff3b83",
     minHeight: 50,
     lineHeight: 3.5,
-    fontSize: "2rem",
+    fontSize: "1.25rem",
+    textTransform: "uppercase",
     color: "white",
     padding: "0 20px",
     textAlign: "center",
@@ -121,6 +122,7 @@ const styles = {
   },
   seeAllButton: {
     fontSize: "1.25rem",
+    textTransform: "uppercase",
     fontWeight: "600",
     color: "white",
     backgroundColor: "#333",
