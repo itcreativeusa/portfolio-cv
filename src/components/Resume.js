@@ -211,10 +211,10 @@ const Resume = () => {
           <h2 style={styles.heading}>Work Experience:</h2>
           <p style={styles.content}>
             <b>
-              ounder and Project Manager, Itcreative Web Studio, Ukraine
+              Founder and Project Manager, Itcreative Web Studio, Ukraine
               (2014-2019){" "}
             </b>{" "}
-            FStarting from freelance web development, grown into a web studio
+            Starting from freelance web development, grown into a web studio
             managing multiple projects in parallel, distributing work to
             multiple freelance developers, and collaborating with multiple
             clients to provide innovative web solutions and deliver high-quality
